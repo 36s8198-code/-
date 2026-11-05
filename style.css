@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Noto Sans KR", system-ui, sans-serif; color: #1f2933; background: #f5f7f6; }
+header { padding: 16px 24px; background: #2f5d50; color: #fff; }
+header h1 { margin: 0 0 4px; font-size: 1.4rem; }
+header p { margin: 0; font-size: .9rem; opacity: .9; }
+main { display: grid; grid-template-columns: 1fr 380px; gap: 16px; padding: 16px 24px; }
+#map { height: 70vh; min-height: 420px; border-radius: 8px; border: 1px solid #cfd8d4; }
+#chat { background: #fff; border: 1px solid #cfd8d4; border-radius: 8px; padding: 16px; height: 70vh; min-height: 420px; display: flex; flex-direction: column; }
+#chat h2 { margin: 0 0 4px; font-size: 1.1rem; }
+.meta { color: #5f6c68; font-size: .85rem; margin: 4px 0; }
+.keywords { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 12px; }
+.keywords button { border: 1px solid #2f5d50; background: #fff; color: #2f5d50; border-radius: 999px; padding: 6px 14px; cursor: pointer; font-size: .9rem; }
+.keywords button:hover, .keywords button.active { background: #2f5d50; color: #fff; }
+.chat-log { flex: 1; overflow-y: auto; font-size: .9rem; line-height: 1.55; }
+.msg { background: #eef3f1; border-radius: 8px; padding: 10px 12px; margin-bottom: 10px; }
+.msg h4 { margin: 0 0 6px; }
+.msg table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+.msg th, .msg td { border-bottom: 1px solid #d5dedb; padding: 3px 6px; text-align: left; }
+.msg ul { padding-left: 18px; margin: 4px 0; }
+.msg .src { color: #5f6c68; font-size: .8rem; margin-top: 6px; }
+.notice { margin: 12px 24px 0; }
+.notice p { margin: 4px 0; padding: 8px 12px; border-radius: 6px; font-size: .9rem; }
+.notice .error { background: #fdecea; color: #8a1c14; }
+.notice .info { background: #fff6e0; color: #6b4e00; }
+.notice .ok { background: #e6f4ea; color: #1b5e20; }
+footer { padding: 8px 24px 24px; font-size: .85rem; color: #4a5753; }
+footer ul { padding-left: 18px; }
+@media (max-width: 900px) { main { grid-template-columns: 1fr; } #chat { height: auto; } }
