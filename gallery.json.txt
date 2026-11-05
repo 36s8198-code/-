@@ -1,0 +1,14 @@
+[
+  {
+    "id": "banyeo-elementary",
+    "schoolName": "반여초등학교",
+    "region": "부산",
+    "useType": "생태 교육관",
+    "image": "images/banyeo-elementary.jpg",
+    "alt": "산자락에 자리 잡은 반여초 건물과 운동장을 위에서 내려다본 모습",
+    "caption": "부산 반여초 - 생태 교육관으로 활용",
+    "sourceName": null,
+    "sourceUrl": null,
+    "license": null
+  }
+]
